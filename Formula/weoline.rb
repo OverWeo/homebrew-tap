@@ -1,30 +1,30 @@
 class Weoline < Formula
   desc "Fast, cross-platform terminal statusline for Claude Code"
   homepage "https://github.com/OverWeo/weoline"
-  version "0.4.2"
+  version "0.4.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/OverWeo/weoline/releases/download/v0.4.2/weoline-aarch64-apple-darwin.tar.gz"
-      sha256 "95340973bc79e4b1d956b9ec580416d62a0c68e90e1e20aefd51eecda03eb4f8"
+      url "https://github.com/OverWeo/weoline/releases/download/v0.4.3/weoline-aarch64-apple-darwin.tar.gz"
+      sha256 "62afddf9662dc7b73dd272f7a1cd03f9afda7c98585e0b89461fcd633d2bd4db"
     end
 
     on_intel do
-      url "https://github.com/OverWeo/weoline/releases/download/v0.4.2/weoline-x86_64-apple-darwin.tar.gz"
-      sha256 "497770558da73950ebab8f73600a665d064e35c6e7ff055c6e912680ec32c8d1"
+      url "https://github.com/OverWeo/weoline/releases/download/v0.4.3/weoline-x86_64-apple-darwin.tar.gz"
+      sha256 "ae6104bfdf2a3862e180569ab1e6e54bd8bcaf10de3549bf66d3666c2b06b7f0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/OverWeo/weoline/releases/download/v0.4.2/weoline-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cdb223bdb71f6614dc259f52f587e6b8ae8afc651c795d70ff82d04f8a8d42e0"
+      url "https://github.com/OverWeo/weoline/releases/download/v0.4.3/weoline-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "87e25021570bfb59c546ba70133fcfad4fbeebde442c82fd09f4340e354f5239"
     end
 
     on_intel do
-      url "https://github.com/OverWeo/weoline/releases/download/v0.4.2/weoline-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1d486f4c147a9560fef22eb8a89ab702a1c44de52671b3f5e98aeb382ba3879d"
+      url "https://github.com/OverWeo/weoline/releases/download/v0.4.3/weoline-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "548415ccde18dab2170d31a8f5e098856e8ad495510da36fa55a6ce88b91f4d8"
     end
   end
 
